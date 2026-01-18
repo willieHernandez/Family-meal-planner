@@ -6,12 +6,13 @@ import com.mealplanner.model.PantryLot;
 import com.mealplanner.model.PantryLotType;
 import com.mealplanner.repository.PantryLotRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Locale;
 
 @Service
@@ -19,24 +20,27 @@ import java.util.Locale;
 public class PantryLotService {
 
     private final PantryLotRepository pantryLotRepository;
+    private final MongoTemplate mongoTemplate;
 
     public PantryLotListResponse listPantryLots(PantryLotType type, String name, int limit, int offset) {
-        Pageable pageable = PageRequest.of(offset / limit, limit, Sort.by(Sort.Direction.DESC, "updatedAt"));
+        Sort sort = Sort.by(Sort.Direction.DESC, "updatedAt");
 
-        Page<PantryLot> page;
-        if (type != null && name != null && !name.isBlank()) {
-            page = pantryLotRepository.findByTypeAndNameContaining(type, name, pageable);
-        } else if (type != null) {
-            page = pantryLotRepository.findByType(type, pageable);
-        } else if (name != null && !name.isBlank()) {
-            page = pantryLotRepository.findByNameContaining(name, pageable);
-        } else {
-            page = pantryLotRepository.findAll(pageable);
+        Query query = new Query();
+        if (type != null) {
+            query.addCriteria(Criteria.where("type").is(type));
+        }
+        if (name != null && !name.isBlank()) {
+            query.addCriteria(Criteria.where("nameNormalized").regex(name, "i"));
         }
 
+        long total = mongoTemplate.count(query, PantryLot.class);
+
+        query.with(sort).skip(offset).limit(limit);
+        List<PantryLot> items = mongoTemplate.find(query, PantryLot.class);
+
         return PantryLotListResponse.builder()
-                .items(page.getContent().stream().map(PantryLotResponse::fromEntity).toList())
-                .total(page.getTotalElements())
+                .items(items.stream().map(PantryLotResponse::fromEntity).toList())
+                .total(total)
                 .build();
     }
 

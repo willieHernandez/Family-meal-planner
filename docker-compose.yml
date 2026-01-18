@@ -56,7 +56,7 @@ services:
       dockerfile: Dockerfile
     container_name: mealplanner-frontend
     ports:
-      - "5173:5173"
+      - "3000:80"
     environment:
       - VITE_API_URL=http://backend:8080
     depends_on:

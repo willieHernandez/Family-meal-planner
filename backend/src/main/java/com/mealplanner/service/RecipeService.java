@@ -6,10 +6,10 @@ import com.mealplanner.model.Recipe;
 import com.mealplanner.model.RecipeIngredient;
 import com.mealplanner.repository.RecipeRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,24 +20,27 @@ import java.util.Locale;
 public class RecipeService {
 
     private final RecipeRepository recipeRepository;
+    private final MongoTemplate mongoTemplate;
 
     public RecipeListResponse listRecipes(String tag, String name, int limit, int offset) {
-        Pageable pageable = PageRequest.of(offset / limit, limit, Sort.by(Sort.Direction.DESC, "updatedAt"));
+        Sort sort = Sort.by(Sort.Direction.DESC, "updatedAt");
 
-        Page<Recipe> page;
-        if (tag != null && !tag.isBlank() && name != null && !name.isBlank()) {
-            page = recipeRepository.findByTagAndNameContaining(tag, name, pageable);
-        } else if (tag != null && !tag.isBlank()) {
-            page = recipeRepository.findByTagsContaining(tag, pageable);
-        } else if (name != null && !name.isBlank()) {
-            page = recipeRepository.findByNameContaining(name, pageable);
-        } else {
-            page = recipeRepository.findAll(pageable);
+        Query query = new Query();
+        if (tag != null && !tag.isBlank()) {
+            query.addCriteria(Criteria.where("tags").is(tag));
+        }
+        if (name != null && !name.isBlank()) {
+            query.addCriteria(Criteria.where("nameNormalized").regex(name, "i"));
         }
 
+        long total = mongoTemplate.count(query, Recipe.class);
+
+        query.with(sort).skip(offset).limit(limit);
+        List<Recipe> items = mongoTemplate.find(query, Recipe.class);
+
         return RecipeListResponse.builder()
-                .items(page.getContent().stream().map(RecipeResponse::fromEntity).toList())
-                .total(page.getTotalElements())
+                .items(items.stream().map(RecipeResponse::fromEntity).toList())
+                .total(total)
                 .build();
     }
 
