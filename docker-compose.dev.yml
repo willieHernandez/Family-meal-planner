@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: mealplanner-mongodb-dev
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_dev_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=mealplanner_dev
+
+  qdrant:
+    image: qdrant/qdrant:v1.7.4
+    container_name: mealplanner-qdrant-dev
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_dev_data:/qdrant/storage
+
+volumes:
+  mongodb_dev_data:
+  qdrant_dev_data:
