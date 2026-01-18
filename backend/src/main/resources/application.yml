@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: meal-planner-backend
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/mealplanner}
+      database: mealplanner
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when_authorized
+
+logging:
+  level:
+    com.mealplanner: DEBUG
+    org.springframework.data.mongodb: DEBUG
