@@ -22,3 +22,7 @@ logging:
   level:
     com.mealplanner: DEBUG
     org.springframework.data.mongodb: DEBUG
+
+mealplanner:
+  seed:
+    enabled: ${SEED_ENABLED:true}

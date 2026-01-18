@@ -6,3 +6,7 @@ spring:
 logging:
   level:
     com.mealplanner: WARN
+
+mealplanner:
+  seed:
+    enabled: false

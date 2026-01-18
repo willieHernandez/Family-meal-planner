@@ -1,0 +1,530 @@
+{
+  "recipes": [
+    {
+      "externalKey": "recipe-001",
+      "name": "Classic Spaghetti Bolognese",
+      "ingredients": [
+        {"name": "spaghetti", "quantity": 400, "unit": "g"},
+        {"name": "ground beef", "quantity": 500, "unit": "g"},
+        {"name": "onion", "quantity": 1, "unit": "medium"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "crushed tomatoes", "quantity": 400, "unit": "g"},
+        {"name": "tomato paste", "quantity": 2, "unit": "tbsp"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.5, "unit": "tsp"},
+        {"name": "dried oregano", "quantity": 1, "unit": "tsp"},
+        {"name": "parmesan cheese", "quantity": 50, "unit": "g"}
+      ],
+      "instructions": [
+        "Bring a large pot of salted water to boil for the pasta.",
+        "Heat olive oil in a large skillet over medium-high heat.",
+        "Add diced onion and cook until softened, about 5 minutes.",
+        "Add minced garlic and cook for 1 minute until fragrant.",
+        "Add ground beef and cook, breaking it up, until browned.",
+        "Stir in crushed tomatoes, tomato paste, oregano, salt, and pepper.",
+        "Simmer sauce for 20 minutes, stirring occasionally.",
+        "Cook spaghetti according to package directions, drain.",
+        "Serve pasta topped with sauce and grated parmesan."
+      ],
+      "servings": 4,
+      "tags": ["italian", "pasta", "dinner", "comfort-food"]
+    },
+    {
+      "externalKey": "recipe-002",
+      "name": "Chicken Stir-Fry with Vegetables",
+      "ingredients": [
+        {"name": "chicken breast", "quantity": 500, "unit": "g"},
+        {"name": "broccoli", "quantity": 2, "unit": "cups"},
+        {"name": "bell pepper", "quantity": 1, "unit": "large"},
+        {"name": "carrot", "quantity": 2, "unit": "medium"},
+        {"name": "soy sauce", "quantity": 3, "unit": "tbsp"},
+        {"name": "sesame oil", "quantity": 1, "unit": "tbsp"},
+        {"name": "vegetable oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 2, "unit": "cloves"},
+        {"name": "ginger", "quantity": 1, "unit": "inch"},
+        {"name": "cornstarch", "quantity": 1, "unit": "tbsp"},
+        {"name": "rice", "quantity": 2, "unit": "cups"}
+      ],
+      "instructions": [
+        "Cut chicken into bite-sized pieces and season with salt.",
+        "Mix soy sauce, sesame oil, and cornstarch in a small bowl.",
+        "Heat vegetable oil in a wok or large skillet over high heat.",
+        "Stir-fry chicken until golden and cooked through, set aside.",
+        "Add more oil if needed, stir-fry vegetables for 3-4 minutes.",
+        "Add minced garlic and ginger, cook for 30 seconds.",
+        "Return chicken to the wok, pour in the sauce.",
+        "Toss everything together until sauce thickens.",
+        "Serve hot over steamed rice."
+      ],
+      "servings": 4,
+      "tags": ["asian", "chicken", "quick", "healthy", "dinner"]
+    },
+    {
+      "externalKey": "recipe-003",
+      "name": "Creamy Mushroom Risotto",
+      "ingredients": [
+        {"name": "arborio rice", "quantity": 300, "unit": "g"},
+        {"name": "mushrooms", "quantity": 300, "unit": "g"},
+        {"name": "vegetable broth", "quantity": 1, "unit": "L"},
+        {"name": "white wine", "quantity": 125, "unit": "ml"},
+        {"name": "onion", "quantity": 1, "unit": "medium"},
+        {"name": "garlic", "quantity": 2, "unit": "cloves"},
+        {"name": "butter", "quantity": 50, "unit": "g"},
+        {"name": "parmesan cheese", "quantity": 75, "unit": "g"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "fresh thyme", "quantity": 2, "unit": "sprigs"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Heat broth in a saucepan and keep warm over low heat.",
+        "Sauté sliced mushrooms in butter until golden, set aside.",
+        "In the same pan, heat olive oil and cook diced onion until soft.",
+        "Add garlic and rice, stir for 2 minutes until rice is toasted.",
+        "Pour in white wine and stir until absorbed.",
+        "Add warm broth one ladle at a time, stirring constantly.",
+        "Continue adding broth until rice is creamy and al dente, about 18-20 minutes.",
+        "Stir in mushrooms, parmesan, thyme leaves, and remaining butter.",
+        "Season with salt and serve immediately."
+      ],
+      "servings": 4,
+      "tags": ["italian", "vegetarian", "rice", "dinner", "comfort-food"]
+    },
+    {
+      "externalKey": "recipe-004",
+      "name": "Classic Beef Tacos",
+      "ingredients": [
+        {"name": "ground beef", "quantity": 500, "unit": "g"},
+        {"name": "taco shells", "quantity": 12, "unit": "pieces"},
+        {"name": "taco seasoning", "quantity": 2, "unit": "tbsp"},
+        {"name": "lettuce", "quantity": 2, "unit": "cups"},
+        {"name": "tomato", "quantity": 2, "unit": "medium"},
+        {"name": "cheddar cheese", "quantity": 150, "unit": "g"},
+        {"name": "sour cream", "quantity": 100, "unit": "g"},
+        {"name": "onion", "quantity": 1, "unit": "small"},
+        {"name": "salsa", "quantity": 200, "unit": "g"},
+        {"name": "lime", "quantity": 1, "unit": "whole"}
+      ],
+      "instructions": [
+        "Brown ground beef in a skillet over medium-high heat.",
+        "Drain excess fat and add taco seasoning with a little water.",
+        "Simmer for 5 minutes until sauce thickens.",
+        "Warm taco shells according to package directions.",
+        "Shred lettuce, dice tomatoes and onion, grate cheese.",
+        "Set up a taco bar with all toppings.",
+        "Fill shells with seasoned beef and desired toppings.",
+        "Squeeze fresh lime juice over tacos before serving."
+      ],
+      "servings": 4,
+      "tags": ["mexican", "beef", "quick", "dinner", "family-friendly"]
+    },
+    {
+      "externalKey": "recipe-005",
+      "name": "Grilled Salmon with Lemon Dill",
+      "ingredients": [
+        {"name": "salmon fillets", "quantity": 4, "unit": "pieces"},
+        {"name": "lemon", "quantity": 2, "unit": "whole"},
+        {"name": "fresh dill", "quantity": 3, "unit": "tbsp"},
+        {"name": "olive oil", "quantity": 3, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 2, "unit": "cloves"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.5, "unit": "tsp"},
+        {"name": "asparagus", "quantity": 400, "unit": "g"}
+      ],
+      "instructions": [
+        "Preheat grill to medium-high heat.",
+        "Mix olive oil, lemon juice, minced garlic, dill, salt, and pepper.",
+        "Brush salmon fillets generously with the marinade.",
+        "Let marinate for 15 minutes at room temperature.",
+        "Toss asparagus with remaining marinade.",
+        "Grill salmon skin-side down for 4-5 minutes per side.",
+        "Grill asparagus alongside for 3-4 minutes, turning once.",
+        "Serve salmon with grilled asparagus and lemon wedges."
+      ],
+      "servings": 4,
+      "tags": ["seafood", "healthy", "grilling", "dinner", "low-carb"]
+    },
+    {
+      "externalKey": "recipe-006",
+      "name": "Vegetable Curry",
+      "ingredients": [
+        {"name": "chickpeas", "quantity": 400, "unit": "g"},
+        {"name": "coconut milk", "quantity": 400, "unit": "ml"},
+        {"name": "potato", "quantity": 2, "unit": "medium"},
+        {"name": "cauliflower", "quantity": 300, "unit": "g"},
+        {"name": "spinach", "quantity": 100, "unit": "g"},
+        {"name": "onion", "quantity": 1, "unit": "large"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "ginger", "quantity": 1, "unit": "inch"},
+        {"name": "curry powder", "quantity": 2, "unit": "tbsp"},
+        {"name": "cumin", "quantity": 1, "unit": "tsp"},
+        {"name": "turmeric", "quantity": 0.5, "unit": "tsp"},
+        {"name": "vegetable oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "basmati rice", "quantity": 300, "unit": "g"}
+      ],
+      "instructions": [
+        "Dice potatoes and cut cauliflower into florets.",
+        "Heat oil in a large pot, sauté diced onion until golden.",
+        "Add minced garlic and ginger, cook for 1 minute.",
+        "Stir in curry powder, cumin, and turmeric, cook 30 seconds.",
+        "Add potatoes, cauliflower, and chickpeas, stir to coat.",
+        "Pour in coconut milk and 1 cup water, bring to simmer.",
+        "Cook for 20-25 minutes until vegetables are tender.",
+        "Stir in spinach and cook until wilted.",
+        "Serve over basmati rice."
+      ],
+      "servings": 4,
+      "tags": ["indian", "vegetarian", "vegan", "curry", "dinner"]
+    },
+    {
+      "externalKey": "recipe-007",
+      "name": "Caesar Salad with Grilled Chicken",
+      "ingredients": [
+        {"name": "chicken breast", "quantity": 400, "unit": "g"},
+        {"name": "romaine lettuce", "quantity": 2, "unit": "heads"},
+        {"name": "parmesan cheese", "quantity": 75, "unit": "g"},
+        {"name": "croutons", "quantity": 100, "unit": "g"},
+        {"name": "caesar dressing", "quantity": 120, "unit": "ml"},
+        {"name": "lemon", "quantity": 1, "unit": "whole"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 1, "unit": "clove"},
+        {"name": "salt", "quantity": 0.5, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.25, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Season chicken breasts with salt, pepper, and olive oil.",
+        "Grill chicken for 6-7 minutes per side until cooked through.",
+        "Let chicken rest for 5 minutes, then slice.",
+        "Chop romaine lettuce and place in a large bowl.",
+        "Shave parmesan cheese using a vegetable peeler.",
+        "Add croutons and most of the parmesan to the lettuce.",
+        "Toss with caesar dressing.",
+        "Top with sliced chicken and remaining parmesan.",
+        "Squeeze fresh lemon juice over the salad and serve."
+      ],
+      "servings": 4,
+      "tags": ["salad", "chicken", "lunch", "healthy", "quick"]
+    },
+    {
+      "externalKey": "recipe-008",
+      "name": "Homemade Margherita Pizza",
+      "ingredients": [
+        {"name": "pizza dough", "quantity": 500, "unit": "g"},
+        {"name": "san marzano tomatoes", "quantity": 400, "unit": "g"},
+        {"name": "fresh mozzarella", "quantity": 250, "unit": "g"},
+        {"name": "fresh basil", "quantity": 15, "unit": "leaves"},
+        {"name": "olive oil", "quantity": 3, "unit": "tbsp"},
+        {"name": "garlic", "quantity": 2, "unit": "cloves"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "dried oregano", "quantity": 0.5, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Preheat oven to highest setting (475-500°F) with pizza stone if available.",
+        "Crush tomatoes by hand, mix with minced garlic, salt, and oregano.",
+        "Stretch pizza dough into a 12-inch round on a floured surface.",
+        "Transfer dough to a pizza peel or baking sheet.",
+        "Spread tomato sauce evenly, leaving a small border.",
+        "Tear mozzarella into pieces and distribute over sauce.",
+        "Drizzle with olive oil.",
+        "Bake for 10-12 minutes until crust is golden and cheese is bubbly.",
+        "Top with fresh basil leaves and serve immediately."
+      ],
+      "servings": 4,
+      "tags": ["italian", "pizza", "vegetarian", "dinner", "family-friendly"]
+    },
+    {
+      "externalKey": "recipe-009",
+      "name": "Thai Green Curry with Shrimp",
+      "ingredients": [
+        {"name": "shrimp", "quantity": 500, "unit": "g"},
+        {"name": "green curry paste", "quantity": 3, "unit": "tbsp"},
+        {"name": "coconut milk", "quantity": 400, "unit": "ml"},
+        {"name": "bamboo shoots", "quantity": 200, "unit": "g"},
+        {"name": "bell pepper", "quantity": 1, "unit": "large"},
+        {"name": "thai basil", "quantity": 20, "unit": "leaves"},
+        {"name": "fish sauce", "quantity": 2, "unit": "tbsp"},
+        {"name": "palm sugar", "quantity": 1, "unit": "tbsp"},
+        {"name": "lime", "quantity": 1, "unit": "whole"},
+        {"name": "jasmine rice", "quantity": 300, "unit": "g"},
+        {"name": "vegetable oil", "quantity": 1, "unit": "tbsp"}
+      ],
+      "instructions": [
+        "Cook jasmine rice according to package directions.",
+        "Heat oil in a wok, add curry paste and fry for 1 minute.",
+        "Pour in half the coconut milk and stir until combined.",
+        "Add remaining coconut milk, bamboo shoots, and bell pepper.",
+        "Simmer for 5 minutes.",
+        "Add shrimp and cook for 3-4 minutes until pink.",
+        "Season with fish sauce and palm sugar.",
+        "Remove from heat, stir in thai basil and lime juice.",
+        "Serve over jasmine rice."
+      ],
+      "servings": 4,
+      "tags": ["thai", "seafood", "curry", "dinner", "spicy"]
+    },
+    {
+      "externalKey": "recipe-010",
+      "name": "Classic Beef Burger",
+      "ingredients": [
+        {"name": "ground beef", "quantity": 600, "unit": "g"},
+        {"name": "burger buns", "quantity": 4, "unit": "pieces"},
+        {"name": "cheddar cheese", "quantity": 4, "unit": "slices"},
+        {"name": "lettuce", "quantity": 4, "unit": "leaves"},
+        {"name": "tomato", "quantity": 1, "unit": "large"},
+        {"name": "red onion", "quantity": 1, "unit": "small"},
+        {"name": "pickles", "quantity": 8, "unit": "slices"},
+        {"name": "ketchup", "quantity": 4, "unit": "tbsp"},
+        {"name": "mustard", "quantity": 2, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.5, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Divide beef into 4 equal portions and form into patties.",
+        "Season both sides generously with salt and pepper.",
+        "Make a small indent in the center of each patty.",
+        "Heat grill or skillet to high heat.",
+        "Cook patties for 3-4 minutes per side for medium.",
+        "Add cheese slice in the last minute of cooking.",
+        "Toast burger buns on the grill.",
+        "Assemble burgers with lettuce, tomato, onion, pickles, and sauces.",
+        "Serve immediately with your favorite sides."
+      ],
+      "servings": 4,
+      "tags": ["american", "beef", "grilling", "dinner", "family-friendly"]
+    },
+    {
+      "externalKey": "recipe-011",
+      "name": "Chicken Alfredo Pasta",
+      "ingredients": [
+        {"name": "fettuccine", "quantity": 400, "unit": "g"},
+        {"name": "chicken breast", "quantity": 500, "unit": "g"},
+        {"name": "heavy cream", "quantity": 500, "unit": "ml"},
+        {"name": "parmesan cheese", "quantity": 150, "unit": "g"},
+        {"name": "butter", "quantity": 75, "unit": "g"},
+        {"name": "garlic", "quantity": 4, "unit": "cloves"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.5, "unit": "tsp"},
+        {"name": "fresh parsley", "quantity": 2, "unit": "tbsp"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"}
+      ],
+      "instructions": [
+        "Cook fettuccine according to package directions, reserve 1 cup pasta water.",
+        "Season chicken with salt and pepper, cook in olive oil until done.",
+        "Let chicken rest, then slice into strips.",
+        "In the same pan, melt butter and sauté minced garlic.",
+        "Pour in heavy cream and bring to a gentle simmer.",
+        "Stir in grated parmesan until melted and smooth.",
+        "Add cooked pasta and toss to coat, adding pasta water if needed.",
+        "Top with sliced chicken and fresh parsley.",
+        "Serve immediately with extra parmesan."
+      ],
+      "servings": 4,
+      "tags": ["italian", "pasta", "chicken", "dinner", "comfort-food"]
+    },
+    {
+      "externalKey": "recipe-012",
+      "name": "Mediterranean Quinoa Bowl",
+      "ingredients": [
+        {"name": "quinoa", "quantity": 200, "unit": "g"},
+        {"name": "cucumber", "quantity": 1, "unit": "medium"},
+        {"name": "cherry tomatoes", "quantity": 200, "unit": "g"},
+        {"name": "kalamata olives", "quantity": 100, "unit": "g"},
+        {"name": "feta cheese", "quantity": 150, "unit": "g"},
+        {"name": "red onion", "quantity": 0.5, "unit": "medium"},
+        {"name": "chickpeas", "quantity": 400, "unit": "g"},
+        {"name": "olive oil", "quantity": 60, "unit": "ml"},
+        {"name": "lemon", "quantity": 1, "unit": "whole"},
+        {"name": "fresh mint", "quantity": 2, "unit": "tbsp"},
+        {"name": "dried oregano", "quantity": 1, "unit": "tsp"},
+        {"name": "salt", "quantity": 0.5, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Cook quinoa according to package directions, let cool.",
+        "Dice cucumber, halve cherry tomatoes, slice red onion thinly.",
+        "Drain and rinse chickpeas.",
+        "Whisk together olive oil, lemon juice, oregano, and salt.",
+        "Combine quinoa, vegetables, chickpeas, and olives in a large bowl.",
+        "Pour dressing over and toss to combine.",
+        "Crumble feta cheese on top.",
+        "Garnish with fresh mint leaves.",
+        "Serve at room temperature or chilled."
+      ],
+      "servings": 4,
+      "tags": ["mediterranean", "vegetarian", "healthy", "lunch", "meal-prep"]
+    },
+    {
+      "externalKey": "recipe-013",
+      "name": "Honey Garlic Glazed Pork Chops",
+      "ingredients": [
+        {"name": "pork chops", "quantity": 4, "unit": "pieces"},
+        {"name": "honey", "quantity": 60, "unit": "ml"},
+        {"name": "soy sauce", "quantity": 60, "unit": "ml"},
+        {"name": "garlic", "quantity": 4, "unit": "cloves"},
+        {"name": "apple cider vinegar", "quantity": 2, "unit": "tbsp"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "butter", "quantity": 30, "unit": "g"},
+        {"name": "salt", "quantity": 0.5, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.25, "unit": "tsp"},
+        {"name": "green beans", "quantity": 400, "unit": "g"}
+      ],
+      "instructions": [
+        "Mix honey, soy sauce, minced garlic, and apple cider vinegar.",
+        "Season pork chops with salt and pepper.",
+        "Heat olive oil in a large skillet over medium-high heat.",
+        "Sear pork chops for 4-5 minutes per side until golden.",
+        "Remove pork and set aside.",
+        "Pour honey garlic sauce into the pan, simmer for 2 minutes.",
+        "Add butter and stir until melted.",
+        "Return pork chops to the pan, coat with sauce.",
+        "Serve with steamed green beans drizzled with remaining sauce."
+      ],
+      "servings": 4,
+      "tags": ["pork", "quick", "dinner", "sweet-savory"]
+    },
+    {
+      "externalKey": "recipe-014",
+      "name": "Classic French Omelette",
+      "ingredients": [
+        {"name": "eggs", "quantity": 3, "unit": "large"},
+        {"name": "butter", "quantity": 30, "unit": "g"},
+        {"name": "gruyere cheese", "quantity": 30, "unit": "g"},
+        {"name": "fresh chives", "quantity": 1, "unit": "tbsp"},
+        {"name": "salt", "quantity": 0.25, "unit": "tsp"},
+        {"name": "white pepper", "quantity": 0.125, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Crack eggs into a bowl, add salt and pepper.",
+        "Whisk vigorously until well combined and slightly frothy.",
+        "Heat butter in a non-stick pan over medium-low heat.",
+        "When butter foams, pour in eggs.",
+        "Stir gently with a spatula while shaking the pan.",
+        "When eggs are just set but still creamy, stop stirring.",
+        "Add grated cheese to one half of the omelette.",
+        "Fold omelette in half and slide onto a plate.",
+        "Garnish with fresh chives and serve immediately."
+      ],
+      "servings": 1,
+      "tags": ["french", "breakfast", "eggs", "quick", "vegetarian"]
+    },
+    {
+      "externalKey": "recipe-015",
+      "name": "Black Bean Soup",
+      "ingredients": [
+        {"name": "black beans", "quantity": 800, "unit": "g"},
+        {"name": "vegetable broth", "quantity": 1, "unit": "L"},
+        {"name": "onion", "quantity": 1, "unit": "large"},
+        {"name": "garlic", "quantity": 4, "unit": "cloves"},
+        {"name": "jalapeño", "quantity": 1, "unit": "whole"},
+        {"name": "cumin", "quantity": 2, "unit": "tsp"},
+        {"name": "smoked paprika", "quantity": 1, "unit": "tsp"},
+        {"name": "lime", "quantity": 2, "unit": "whole"},
+        {"name": "cilantro", "quantity": 30, "unit": "g"},
+        {"name": "sour cream", "quantity": 100, "unit": "g"},
+        {"name": "olive oil", "quantity": 2, "unit": "tbsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Heat olive oil in a large pot over medium heat.",
+        "Sauté diced onion until softened, about 5 minutes.",
+        "Add minced garlic and diced jalapeño, cook 1 minute.",
+        "Stir in cumin and smoked paprika, toast for 30 seconds.",
+        "Add drained black beans and vegetable broth.",
+        "Bring to a boil, then reduce heat and simmer for 20 minutes.",
+        "Use an immersion blender to partially blend, leaving some chunks.",
+        "Season with salt and lime juice.",
+        "Serve topped with sour cream, cilantro, and lime wedges."
+      ],
+      "servings": 6,
+      "tags": ["mexican", "soup", "vegetarian", "vegan", "comfort-food"]
+    },
+    {
+      "externalKey": "recipe-016",
+      "name": "Teriyaki Salmon Rice Bowl",
+      "ingredients": [
+        {"name": "salmon fillets", "quantity": 4, "unit": "pieces"},
+        {"name": "sushi rice", "quantity": 300, "unit": "g"},
+        {"name": "soy sauce", "quantity": 60, "unit": "ml"},
+        {"name": "mirin", "quantity": 60, "unit": "ml"},
+        {"name": "sake", "quantity": 30, "unit": "ml"},
+        {"name": "sugar", "quantity": 2, "unit": "tbsp"},
+        {"name": "edamame", "quantity": 150, "unit": "g"},
+        {"name": "avocado", "quantity": 1, "unit": "whole"},
+        {"name": "cucumber", "quantity": 1, "unit": "medium"},
+        {"name": "sesame seeds", "quantity": 1, "unit": "tbsp"},
+        {"name": "nori", "quantity": 2, "unit": "sheets"}
+      ],
+      "instructions": [
+        "Cook sushi rice according to package directions.",
+        "Combine soy sauce, mirin, sake, and sugar in a small pot.",
+        "Simmer teriyaki sauce until slightly thickened, about 5 minutes.",
+        "Heat a non-stick pan over medium-high heat.",
+        "Cook salmon skin-side up for 3 minutes, flip and cook 3 more minutes.",
+        "Brush salmon with teriyaki sauce during the last minute.",
+        "Slice cucumber and avocado.",
+        "Assemble bowls with rice, salmon, edamame, avocado, and cucumber.",
+        "Drizzle with remaining teriyaki sauce, top with sesame seeds and nori strips."
+      ],
+      "servings": 4,
+      "tags": ["japanese", "seafood", "rice-bowl", "dinner", "healthy"]
+    },
+    {
+      "externalKey": "recipe-017",
+      "name": "Caprese Stuffed Chicken",
+      "ingredients": [
+        {"name": "chicken breast", "quantity": 4, "unit": "pieces"},
+        {"name": "fresh mozzarella", "quantity": 200, "unit": "g"},
+        {"name": "roma tomatoes", "quantity": 2, "unit": "medium"},
+        {"name": "fresh basil", "quantity": 20, "unit": "leaves"},
+        {"name": "balsamic glaze", "quantity": 3, "unit": "tbsp"},
+        {"name": "olive oil", "quantity": 3, "unit": "tbsp"},
+        {"name": "garlic powder", "quantity": 1, "unit": "tsp"},
+        {"name": "italian seasoning", "quantity": 1, "unit": "tsp"},
+        {"name": "salt", "quantity": 1, "unit": "tsp"},
+        {"name": "black pepper", "quantity": 0.5, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Preheat oven to 400°F (200°C).",
+        "Cut a deep pocket horizontally in each chicken breast.",
+        "Season inside and outside with salt, pepper, garlic powder, and Italian seasoning.",
+        "Slice mozzarella and tomatoes.",
+        "Stuff each pocket with mozzarella, tomato slices, and basil leaves.",
+        "Secure with toothpicks if needed.",
+        "Heat olive oil in an oven-safe skillet over medium-high heat.",
+        "Sear chicken for 3 minutes per side until golden.",
+        "Transfer skillet to oven and bake for 15-18 minutes until cooked through.",
+        "Drizzle with balsamic glaze before serving."
+      ],
+      "servings": 4,
+      "tags": ["italian", "chicken", "dinner", "low-carb", "elegant"]
+    },
+    {
+      "externalKey": "recipe-018",
+      "name": "Vegetable Fried Rice",
+      "ingredients": [
+        {"name": "jasmine rice", "quantity": 400, "unit": "g"},
+        {"name": "eggs", "quantity": 3, "unit": "large"},
+        {"name": "frozen peas", "quantity": 100, "unit": "g"},
+        {"name": "carrot", "quantity": 2, "unit": "medium"},
+        {"name": "green onions", "quantity": 4, "unit": "stalks"},
+        {"name": "garlic", "quantity": 3, "unit": "cloves"},
+        {"name": "soy sauce", "quantity": 3, "unit": "tbsp"},
+        {"name": "sesame oil", "quantity": 2, "unit": "tsp"},
+        {"name": "vegetable oil", "quantity": 3, "unit": "tbsp"},
+        {"name": "white pepper", "quantity": 0.25, "unit": "tsp"}
+      ],
+      "instructions": [
+        "Use day-old cold rice for best results, or spread fresh rice on a tray to cool.",
+        "Beat eggs with a pinch of salt.",
+        "Dice carrots and slice green onions, separating white and green parts.",
+        "Heat 1 tbsp oil in a wok over high heat, scramble eggs, set aside.",
+        "Add remaining oil, stir-fry carrots for 2 minutes.",
+        "Add garlic and white parts of green onions, cook 30 seconds.",
+        "Add rice, breaking up clumps, stir-fry for 3-4 minutes.",
+        "Add peas, soy sauce, sesame oil, and pepper, toss well.",
+        "Return eggs to wok, add green onion tops, toss and serve."
+      ],
+      "servings": 4,
+      "tags": ["asian", "vegetarian", "rice", "quick", "dinner"]
+    }
+  ]
+}
